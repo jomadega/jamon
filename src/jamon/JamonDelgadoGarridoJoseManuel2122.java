@@ -5,10 +5,12 @@
 package jamon;
 
 /**
- *
+ *Clase para crear un objeto jamon
+
  * @author portatil_profesorado
+ * @author José Manuel Delgado Garrido
  */
-public class JamónDelgadoGarridoJoséManuel2122 {
+public class JamonDelgadoGarridoJoseManuel2122 {
     
     private String categoria;
     private double precio;
@@ -16,13 +18,13 @@ public class JamónDelgadoGarridoJoséManuel2122 {
     private int stock;
 
     /* Constructor sin argumentos */
-    public JamónDelgadoGarridoJoséManuel2122 ()
+    public JamonDelgadoGarridoJoseManuel2122 ()
     {
     }
     // Constructor con parámetro para iniciar todas las propiedades de la clase
     // jamon
     
-    public JamónDelgadoGarridoJoséManuel2122 (String cat, double precio, int stock)
+    public JamonDelgadoGarridoJoseManuel2122 (String cat, double precio, int stock)
     {
         this.categoria =cat;
         this.precio=precio;
@@ -45,7 +47,7 @@ public class JamónDelgadoGarridoJoséManuel2122 {
         return getStock();
     }
 
-    /* Método para comprar coches. Modifica el stock.
+    /* Método para comprar jamones. Modifica el stock.
      * Este método va a ser probado con Junit
      */
     public void comprar(int cantidad) throws Exception

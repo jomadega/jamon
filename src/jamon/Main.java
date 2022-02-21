@@ -5,22 +5,41 @@
 package jamon;
 
 /**
- *
+ * Clase principal.
+ * Programa para comprar y vender jamones
+
  * @author portatil_profesorado
+ * @author José manuel Delgado Garrido
  */
+
+
+
+/**
+ * Es el método principal del programa
+ 
+  */
+ 
+ 
 public class Main {
     
     public static void main(String[] args) {
-        JamónDelgadoGarridoJoséManuel2122 miJamonDelgadoGarridoJoséManuel2122;
+        JamonDelgadoGarridoJoseManuel2122 miJamonDelgadoGarridoJoséManuel2122;
         int stockActual;
         
-        miJamonDelgadoGarridoJoséManuel2122 = new JamónDelgadoGarridoJoséManuel2122("5Jotas",580,100);
+        miJamonDelgadoGarridoJoséManuel2122 = new JamonDelgadoGarridoJoseManuel2122("5Jotas",580,100);
         vendeJamDelgadoGarridoJoséManuel2122(miJamonDelgadoGarridoJoséManuel2122);
         
         compraJamDelgadoGarridoJoséManuel2122(miJamonDelgadoGarridoJoséManuel2122);
     }
+    /**
+     * Método Compra
+     * Sirve para comprar jamones
+     * @param miJamonDelgadoGarridoJoséManuel2122 objeto de la clase jamon
+     */
+     
+     
 
-    private static void compraJamDelgadoGarridoJoséManuel2122(JamónDelgadoGarridoJoséManuel2122 miJamonDelgadoGarridoJoséManuel2122) {
+    private static void compraJamDelgadoGarridoJoséManuel2122(JamonDelgadoGarridoJoseManuel2122 miJamonDelgadoGarridoJoséManuel2122) {
         int stockActual;
         try
         {
@@ -34,7 +53,14 @@ public class Main {
         System.out.println("El stock actual es "+ stockActual );
     }
 
-    private static void vendeJamDelgadoGarridoJoséManuel2122(JamónDelgadoGarridoJoséManuel2122 miJamonDelgadoGarridoJoséManuel2122) {
+    /**
+     * Método vende
+     * Sirve para vender jamones
+     * @param miJamonDelgadoGarridoJoséManuel2122 objeto de la clase jamon
+     
+    
+     */
+    private static void vendeJamDelgadoGarridoJoséManuel2122(JamonDelgadoGarridoJoseManuel2122 miJamonDelgadoGarridoJoséManuel2122) {
         try
         {
             System.out.println("Venta de Jamones");
